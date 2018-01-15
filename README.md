@@ -35,6 +35,6 @@ The program had been tested on R version 3.4.3 and Shiny Server version v1.5.6.8
 
 
 ## AUTHOR & COPYRIGHT ##
-CORNAS was developed by Joel Z.B. Low.
+Time Detective was developed by Joel Z.B. Low.
 
 Copyright is under MIT license (see LICENSE.txt).
