@@ -2,7 +2,7 @@
 
 ![TimeDetective](example1screen.png "TimeDetective example")
 
-TimeDetective is a web app written in [R](https://www.r-project.org/) that runs on [Shiny Server] (https://shiny.rstudio.com/). The package contains two files:
+TimeDetective is a web app written in [R](https://www.r-project.org/) that runs on [Shiny Server](https://shiny.rstudio.com/). The package contains two files:
 
 1. `server.R`
 2. `ui.R`
@@ -14,7 +14,7 @@ The program had been tested on R version 3.4.3 and Shiny Server version v1.5.6.8
 
 
 ## HOWTO ##
-1. To use this package, first ensure Shiny Server is installed [according to the manual] (https://shiny.rstudio.com/products/shiny/download-server/), running and that port `3838` is open (default port).
+1. To use this package, first ensure Shiny Server is installed [according to the manual](https://shiny.rstudio.com/products/shiny/download-server/), running and that port `3838` is open (default port).
 
 2. Clone or download this directory into the `/srv/shiny-server/` directory (or wherever the shiny app directories are stored on your server).
 
@@ -34,7 +34,7 @@ The program had been tested on R version 3.4.3 and Shiny Server version v1.5.6.8
 
 
 
-## AUTHORS & COPYRIGHT ##
+## AUTHOR & COPYRIGHT ##
 CORNAS was developed by Joel Z.B. Low.
 
 Copyright is under MIT license (see LICENSE.txt).
