@@ -1,6 +1,6 @@
 # TimeDetective #
 
-![TimeDetective](https://github.com/joel-lzb/TimeDetective/example1screen.png "TimeDetective example")
+![TimeDetective](example1screen.png "TimeDetective example")
 
 TimeDetective is a web app written in [R](https://www.r-project.org/) that runs on [Shiny Server] (https://shiny.rstudio.com/). The package contains two files:
 
