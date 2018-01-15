@@ -23,9 +23,9 @@ shinyServer(function(input, output,session) {
 		# prepare DateTime column:
 		if (is.null(datatab[["Hour"]])) { # for hourly tab:
 		}else{
-			if (nchar(datatab$Hour[1]) > 2) # if the Hour format is in HHMM format.
+			if (nchar(datatab$Hour[1]) > 2){ # if the Hour format is in HHMM format.
 				datatab[,"DateTime"]<-as.POSIXct(paste(datatab$Date,format(strptime(sprintf("%04d",datatab$Hour),"%H%M"),"%H:%M"),sep=" "),"%R")
-			else { # if it is only HH integers (0 - 23) format.
+			}else{ # if it is only HH integers (0 - 23) format.
 				datatab[,"DateTime"]<-as.POSIXct(paste(datatab$Date,paste(datatab$Hour,"00",sep=":"),sep=" "),"%R")
 			}
 		}
