@@ -18,12 +18,12 @@ A Dockerfile is available, if that is a preferred method to setup the app.
 
 1. Set up options:
 	
-  **A. Docker method**: First have [docker](https://www.docker.com/) installed. Then run the following commands in this directory:
+* **A. Docker method**: First have [docker](https://www.docker.com/) installed. Then run the following commands in this directory:
 	
 		docker build -t timedetective_app .
 		docker run --name=timedetective --rm -d -p 3838:3838 timedetective_app
 
-  **B. Classic method**: First ensure Shiny Server is installed [according to the manual](https://shiny.rstudio.com/products/shiny/download-server/), running and that port `3838` is open (default port). Clone or download this directory into the `/srv/shiny-server/` directory (or wherever the shiny app directories are stored on your server).
+* **B. Classic method**: First ensure Shiny Server is installed [according to the manual](https://shiny.rstudio.com/products/shiny/download-server/), running and that port `3838` is open (default port). Clone or download this directory into the `/srv/shiny-server/` directory (or wherever the shiny app directories are stored on your server).
 
 2. Open a web browser and go to the following url to start a session:
 		`http:/localhost:3838/TimeDetective`
